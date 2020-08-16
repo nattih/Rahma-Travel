@@ -1,0 +1,13 @@
+/** Metabox Styles **/
+.page-meta-layouts span {
+    display: inline-block;
+    margin-right: 15px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    line-height: 0;
+    transition: all 1s ease;
+}
+
+.page-meta-layouts span:hover, .page-meta-layouts span.active {
+    border-color: #00a0d2;
+}

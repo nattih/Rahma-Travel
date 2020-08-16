@@ -1,0 +1,12 @@
+.elementor-add-new-section .pa-add-section-btn {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.elementor-elegant-icon {
+    background-image: url("../../../../admin/images/elegant-addons-logo-40x40.png");
+}
+
+.elementor-elegant-icon .fas::before {
+    color: transparent;
+}

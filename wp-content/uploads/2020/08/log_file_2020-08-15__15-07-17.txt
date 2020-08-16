@@ -1,0 +1,68 @@
+
+---Downloaded files---
+The import files for: Business were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://localhost/Rahma_travel
+Data file = C:\laragon\www\Rahma_Travel/wp-content/uploads/2020/08/demo-content-import-file_2020-08-15__15-07-17.xml
+Widget file = C:\laragon\www\Rahma_Travel/wp-content/uploads/2020/08/demo-widgets-import-file_2020-08-15__15-07-17.json
+Customizer file = C:\laragon\www\Rahma_Travel/wp-content/uploads/2020/08/demo-customizer-import-file_2020-08-15__15-07-17.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Rechercher - No Title - Imported
+Articles récents - No Title - Imported
+Commentaires récents - No Title - Imported
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+Articles récents - No Title - Imported
+Commentaires récents - No Title - Imported
+Archives - No Title - Imported
+Catégories - No Title - Imported
+
+Page Sidebar : 
+
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+
+Footer Widget 1 : 
+
+Image - No Title - Imported
+Texte - No Title - Imported
+
+Footer Widget 2 : 
+
+Menu de navigation - Useful Links - Imported
+
+Footer Widget 3 : 
+
+Articles récents - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ct-CT_CTDI/after_import---
+

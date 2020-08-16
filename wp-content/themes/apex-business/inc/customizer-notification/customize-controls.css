@@ -1,0 +1,55 @@
+#customize-controls .control-section-writer .accordion-section-title:hover,
+#customize-controls .control-section-writer .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+#accordion-section-apex_business_breadcurmb_section .accordion-section-title::before,
+#accordion-panel-apex_business_general_panel .accordion-section-title::before,
+#accordion-section-apex_business_topbar_section .accordion-section-title::before,
+#accordion-panel-apex_business_header_panel .accordion-section-title::before,
+#accordion-panel-apex_business_footer_panel .accordion-section-title::before,
+#accordion-panel-apex_business_blog_panel .accordion-section-title::before,
+#accordion-section-apex_business_button_settings_section .accordion-section-title::before,
+#accordion-section-apex_business_sidebar_settings_section .accordion-section-title::before,
+#accordion-section-apex_business_woo_single_sidebar_settings_section .accordion-section-title::before {
+    content: 'AB';
+    color: #00BC87;
+	border: 1px solid #00BC87;
+	padding: 3px 4px;
+	position: absolute;
+	line-height: 1;
+	font-size: 15px;
+	position: absolute;
+	right: 36px;
+	background-color: #fff;
+}
+
+.control-section-writer .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+	.rtl .control-section-writer .accordion-section-title .button {
+		margin-left:  0;
+		margin-right: 8px;
+	}
+	.at-pro {
+		background: #00BC87!important;
+		color: #fff!important;
+		border-color: #00BC87 !important;
+		font-weight: 600 !important;
+		box-shadow: 0 1px 0 #ccc !important;
+	}
+.at-pro:hover {
+	background: #00BC87!important;
+	color: #fff!important;
+}
+
+.ct-notice-box {
+	padding-bottom: 1em;
+}
+
+.ct-accordian-hidden {
+	display: none;
+}

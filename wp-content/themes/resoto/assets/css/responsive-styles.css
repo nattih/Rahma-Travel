@@ -1,0 +1,147 @@
+/** Responsive Styles **/
+@media screen and (max-width: 1200px){
+	.rcontainer {
+		width: 100% !important;
+		padding: 0px 20px !important;
+	}
+
+	.resoto-hb-search-room {
+		width: 100%;
+		padding: 0px 20px; 
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.resoto-hb-search-room form ul li.hb-form-field {
+		width: 48%;
+	}
+
+	.resoto-hb-search-room form ul li.hb-form-field .hb_input_field input {
+		margin-bottom: 20px;
+	}
+
+	.resoto-hb-search-room form {
+		flex-flow: column;
+	}
+
+	.resoto-hb-search-room ul.hb-form-table {
+		width: 100%;
+	}
+
+	.resoto-hb-search-room .hotel-booking-search .hb-submit {
+		width: inherit;
+	}
+
+	.resoto-hb-search-room .hotel-booking-search .hb-submit button {
+		margin-top: 30px;
+	}
+
+	.tp-hotel-booking.grid-layout > li.hb_room {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 950px){
+	#simple-menu {
+		display: inline-block;
+	}
+
+	#primary-menu {
+		display: none;
+	}
+
+	.hb_single_room .hb_single_room_details .hb_single_room_tabs>li {
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.resoto-hb-search-room .hotel-booking-search {
+		padding: 30px 0px;
+	}
+
+	.tp-hotel-booking.grid-layout > li.hb_room {
+		width: 100%;
+	}
+
+	.hb_single_room_details .comment_container {
+		flex-flow: column;
+	}
+
+	.hb_single_room_details #comments .commentlist .comment-text {
+		margin-left: 0;
+		width: 100%;
+		border-top-left-radius: 10px;
+	}
+
+	.hb_single_room_details #comments .commentlist .comment-avatar-wrap {
+		width: 100%;
+	}
+
+	.hb_single_room_details #comments .commentlist .comment-text::after {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 585px){
+	.hb_single_room .hb_single_room_details .hb_single_room_tabs {
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+	}
+
+	.hb_single_room .hb_single_room_details .hb_single_room_tabs>li a:hover,
+	.hb_single_room .hb_single_room_details .hb_single_room_tabs>li a.active {
+		color: #ec6a2a;
+	}
+
+	.hb_single_room .hb_single_room_details .hb_single_room_tabs>li a::after {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.site-footer.layout1 .top-footer .fwidget {
+		width: 48%;
+	}
+
+	.tp-hotel-booking.list-layout .media,
+	.tp-hotel-booking.list-layout .price-infos {
+		width: 100%;
+	}
+
+	.tp-hotel-booking.list-layout .price-infos .rating {
+		top: -40px;
+		left: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 10px;
+	}
+
+	body.right-sidebar #primary,
+	.right-sidebar #secondary,
+	.resoto-room-wrap.has-sidebar .hb_single_room,
+	.resoto-room-wrap.has-sidebar .sroom-sidebar {
+		width: 100%;
+	}
+
+	.resoto-slider.layout1 .owl-nav,
+	.resoto-slider.layout3 .owl-nav,
+	.resoto-slider.layout2 .owl-nav .owl-next,
+	.resoto-slider.layout2 .owl-nav .owl-prev {
+		top: 70%;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.site-footer.layout1 .top-footer .fwidget {
+		width: 100%;
+	}
+
+	.tp-hotel-booking .price-infos .room-features li {
+		width: 48%;
+	}
+
+	.resoto-slider .caption-text .text {
+		width: 100%;
+	}
+}

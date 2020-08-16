@@ -1,0 +1,79 @@
+#accordion-section-resoto_upgrade_button {
+    display: block !important;
+}
+
+#accordion-section-resoto_upgrade_button a.button {
+    background-color: #e97070;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+#accordion-section-resoto_upgrade_button a.button:hover {
+    background-color: #df5454;
+}
+
+li.accordion-section:first-child .accordion-section-title:before,
+.customize-pane-child li.accordion-section .accordion-section-title:before{
+	display: none;
+}
+
+li.accordion-section > .accordion-section-title:before {
+    font-family: "eicons";
+    content: '\e878';
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li#accordion-section-resoto_upgrade_button .accordion-section-title:before {
+	content: '\e893';
+}
+
+li#accordion-panel-resoto_header_panel .accordion-section-title:before {
+	content: '\e962';
+}
+
+li#accordion-section-resoto_slider_options .accordion-section-title:before {
+	content: '\e844';
+}
+
+li#accordion-section-resoto_footer_options .accordion-section-title:before {
+	content: '\e961';
+}
+
+li#accordion-section-resoto_blog_options .accordion-section-title:before {
+	content: '\e843';
+}
+
+li#accordion-section-resoto_room_options .accordion-section-title:before {
+	content: '\e847';
+}
+
+li#accordion-panel-resoto_typography_panel .accordion-section-title:before {
+	content: '\e86b';
+}
+
+li#accordion-section-colors .accordion-section-title:before {
+	content: '\e92b';
+}
+
+li#accordion-section-background_image .accordion-section-title:before {
+	content: '\e835';
+}
+
+li#accordion-panel-nav_menus .accordion-section-title:before {
+	content: '\e83e';
+}
+
+li#accordion-panel-widgets .accordion-section-title:before {
+	content: '\e854';
+}
+
+li#accordion-panel-static_front_page .accordion-section-title:before {
+	content: '\e963';
+}
+
+li#accordion-section-custom_css .accordion-section-title:before {
+	content: '\e870';
+}

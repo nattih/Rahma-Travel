@@ -1,0 +1,283 @@
+# Translation of Themes - BoldR Lite in French (France)
+# This file is distributed under the same license as the Themes - BoldR Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-01 13:12:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - BoldR Lite\n"
+
+#: inc/customizer/customizer.php:288
+msgid "Rate BoldR Lite"
+msgstr "Notez BoldR Lite"
+
+#: inc/customizer/customizer.php:265
+msgid "BoldR Lite support forums"
+msgstr "Forum d'aide de BoldR Lite (en anglais uniquement)"
+
+#: inc/customizer/customizer.php:243
+msgid "Unleash the full potential of BoldR with tons of additional settings, advanced features and premium support."
+msgstr "Profitez de tout le potentiel de BoldR avec de nombreux paramètres de configuration, des fonctionnalités avancées et l'accès au forum de support premium (en anglais uniquement)."
+
+#: inc/customizer/customizer.php:242
+msgid "Get BoldR Pro"
+msgstr "Obtenir BoldR Pro !"
+
+#: inc/customizer/customizer.php:216
+msgid "Display header on Pages"
+msgstr "Afficher l'image d'en-tête personnalisée sur les pages"
+
+#: inc/customizer/customizer.php:191
+msgid "Display header on Single Posts"
+msgstr "Afficher l'image d'en-tête personnalisée sur les pages d'articles"
+
+#: inc/customizer/customizer.php:166
+msgid "Display header on Blog Index"
+msgstr "Afficher l'image d'en-tête personnalisée sur la page principale du blog"
+
+#: inc/customizer/customizer.php:141
+msgid "Display header on Homepage"
+msgstr "Afficher l'image d'en-tête personnalisée sur la page d'accueil"
+
+#: inc/customizer/customizer.php:89
+msgid "Blog Index Content"
+msgstr "Contenu de la page principale du blog"
+
+#: inc/customizer/customizer.php:68
+msgid "If no logo is uploaded, the site title will be displayed instead."
+msgstr "Si aucun logo n'est pas défini, le nom de site sera affiché à la place."
+
+#: inc/customizer/customizer.php:67
+msgid "Upload your logo"
+msgstr "Transférez votre logo"
+
+#: inc/customizer/customizer.php:48
+msgid "More"
+msgstr "Plus"
+
+#: inc/customizer/customizer.php:40
+msgid "Misc"
+msgstr "Divers"
+
+#: inc/customizer/customizer.php:33
+msgid "Blog Settings"
+msgstr "Paramètres du blog"
+
+#: inc/customizer/customizer.php:19
+msgid "Background"
+msgstr "Arrière-plan"
+
+#. Template Name of the theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Modèle de page pleine largeur, sans barre latérale"
+
+#: single.php:180 single.php:213
+msgid "Next Post"
+msgstr "Article suivant"
+
+#: single.php:172 single.php:205
+msgid "Previous Post"
+msgstr "Article précédent"
+
+#: single.php:162
+msgid "Next Image"
+msgstr "Image suivante"
+
+#: single.php:154
+msgid "Previous Image"
+msgstr "Image précédente"
+
+#: sidebar.php:30
+msgid "Meta"
+msgstr "Méta"
+
+#: sidebar.php:25
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar.php:20
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: single.php:131 page-templates/full-width.php:35 page.php:35
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: single.php:130 page-templates/full-width.php:34 page.php:34
+msgid "Next page"
+msgstr "Page suivante"
+
+#: single.php:125 page-templates/full-width.php:29 page.php:29
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: index.php:222
+msgid "Next Posts"
+msgstr "Articles suivants"
+
+#: index.php:216
+msgid "Previous Posts"
+msgstr "Articles précédents"
+
+#: index.php:194
+msgid "Would you like to try another search ?"
+msgstr "Voulez-vous essayer une nouvelle recherche ?"
+
+#. Translators: %s is the search term
+#: index.php:189
+msgid "Your search for \"%s\" did not return any result."
+msgstr "Votre recherche de \"%s\" n'a retourné aucun résultat."
+
+#: single.php:228 page-templates/full-width.php:85 index.php:184 index.php:202
+#: page.php:73
+msgid "Not Found"
+msgstr "Rien de trouvé"
+
+#: single.php:138 index.php:164
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: single.php:113 index.php:145
+msgid "Posted in"
+msgstr "Posté dans"
+
+#: single.php:79 page-templates/full-width.php:46 index.php:108 page.php:45
+msgid "Edit"
+msgstr "Modifier"
+
+#: single.php:72 index.php:103
+msgid "by "
+msgstr "de"
+
+#: single.php:62 index.php:94
+msgid "Comments Off"
+msgstr "Commentaires fermés"
+
+#: single.php:60 index.php:92
+msgid "Comments"
+msgstr "Commentaires"
+
+#: single.php:58 single.php:59 index.php:90 index.php:91
+msgid "Comment"
+msgstr "Commentaire"
+
+#: single.php:53 index.php:85
+msgid "%"
+msgstr "%"
+
+#: single.php:52 index.php:84
+msgid "1"
+msgstr "1"
+
+#: single.php:51 index.php:83
+msgid "No"
+msgstr "Non"
+
+#: functions.php:231 functions.php:237
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: functions.php:129
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.php:116
+msgid "Default Sidebar"
+msgstr "Barre latérale par défaut"
+
+#: inc/customizer/customizer.php:115
+msgid "Responsive Mode"
+msgstr "Mode \"Responsive\""
+
+#: inc/customizer/customizer.php:95
+msgid "Full content"
+msgstr "Contenu complet"
+
+#: inc/customizer/customizer.php:94
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: inc/customizer/customizer.php:120 inc/customizer/customizer.php:146
+#: inc/customizer/customizer.php:171 inc/customizer/customizer.php:196
+#: inc/customizer/customizer.php:221
+msgid "On"
+msgstr "On"
+
+#: inc/customizer/customizer.php:121 inc/customizer/customizer.php:147
+#: inc/customizer/customizer.php:172 inc/customizer/customizer.php:197
+#: inc/customizer/customizer.php:222
+msgid "Off"
+msgstr "Arrêt"
+
+#: inc/customizer/customizer.php:25
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/customizer.php:316
+msgid "Upgrade to BoldR Pro!"
+msgstr "Mettez à jour vers BoldR Pro !"
+
+#: inc/customizer/customizer.php:289
+msgid "Like this theme? We'd love to hear your feedback!"
+msgstr "Vous aimez ce thème ? Nous serions ravi d'entendre vos avis !"
+
+#: inc/customizer/customizer.php:266
+msgid "Have a question? Need help?"
+msgstr "Une question ? Besoin d'aide ?"
+
+#: footer.php:47
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:46
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plate-forme de publication personnelle à la pointe de la sémantique"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:65
+msgid "Newer comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:57
+msgid "Older comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:43
+msgid "Reply"
+msgstr "Répondre"
+
+#: comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par mot de passe. Saisissez le mot de passe pour voir les commentaires."
+
+#: comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Veuillez ne pas accéder à cette page directement. Merci !"
+
+#: 404.php:23
+msgid "Maybe a search will help ?"
+msgstr "Peut-être qu'une recherche pourrait vous aider ?"
+
+#: single.php:229 page-templates/full-width.php:86 index.php:203 404.php:22
+#: page.php:74
+msgid "What you are looking for isn't here..."
+msgstr "Ce que vous cherchez n'est pas ici..."
+
+#: 404.php:21
+msgid "Page Not Found"
+msgstr "Page non trouvée"
+
+#: page-templates/full-width.php:81 404.php:17
+msgid "404"
+msgstr "404"
+
+#. Author of the theme
+msgid "Iceable Media"
+msgstr "Iceable Media"

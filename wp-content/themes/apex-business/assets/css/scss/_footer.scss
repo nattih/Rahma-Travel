@@ -1,0 +1,263 @@
+/*=========================
+    18. FOOTER
+===========================*/
+
+#theme-footer {
+    .ct-footer-border-top {
+            border-width:0;
+            border-top-style: solid;
+            border-color: $primary-color;
+    }
+    .footer-content {
+        background: $light-white-color;
+    }
+
+    .widget-title {
+        color: $white-color;
+    }
+
+    .footer-block {
+        .widget {
+            td,
+            th,
+            h3,
+            p,
+            span,
+            li {
+                color: #fff;
+            }
+            ul  {
+                li{
+                    &:before{
+                        content: "\f105";
+                        font-family: FontAwesome;
+                        margin-right: $smaller-padding;
+                    }
+                }
+            }
+
+            .footer-logo {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .widget-subscribe-form {
+                position: relative;
+                max-width: 100%;
+                margin: 0 auto;
+                margin-bottom: $inner-padding;
+                @extend .pre-shadow;
+
+                .form-control,
+                .input-group-btn {
+                    float: left;
+                }
+
+                .form-control {
+                    width: 65%;
+                    height: 50px;
+                    padding: 0 20px 0 20px;
+
+                    border: none;
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                }
+
+                .input-group-btn {
+                    width: 35%;
+
+                    .btn {
+                        width: 100%;
+                        height: 50px;
+                        color: $white-color;
+                        background-color: $primary-color;
+
+                        border: none;
+                        border-top-right-radius: 3px;
+                        border-bottom-right-radius: 3px;
+                    }
+                }
+            }
+
+        }
+        .menu-underline{
+            ul  {
+                li{
+                    margin-bottom: 15px;
+                    border-bottom: 1px solid #424242;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+        .footer-widget {
+
+            .footer-social {
+                li {
+                    display: inline-block;
+                    margin-right: 15px;
+                    i {
+                        font-size: 32px;
+                    }
+
+                    &::before {
+                        content: unset;
+                    }
+
+                    .fa-facebook-f {
+                        color: #3b5998;
+                    }
+                    .fa-twitter {
+                        color:#38A1F3;
+                    }
+                    .fa-youtube {
+                        color:#c4302b;
+                    }
+                    .fa-instagram {
+                        color:#e4405f;
+                    }
+                    .fa-linkedin-in {
+                        color:#0077B5;
+                    }
+
+                }
+            }
+            .widgetarea {
+                ul {
+                    list-style: none;
+                    padding-left: 0;
+                }
+
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    border-top-style:solid;
+    border-width:0;
+    padding: $inner-padding/2;
+    border-color: $primary-color;
+
+    .copyright-content {
+        font-size:14px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* Footer Widget Gallery*/
+.gallery-columns-3 .gallery-item {
+    max-width: 30.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 23.33%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 48.33%;
+}
+
+.gallery-columns-1 .gallery-item {
+    max-width: 100%;
+}
+.gallery-item {
+    margin: 0;
+    padding: 10px;
+    border-radius: 2px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+/* Footer Widget Search form*/
+input[type="search"] {
+    box-sizing: border-box;
+}
+
+/* Footer widget calendar*/
+#calendar_wrap {
+    border-radius: 4px;
+}
+
+.widget_calendar #wp-calendar {
+    width: 100%;
+}
+
+.widget_calendar caption {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    background: #F4F4F4;
+    padding: 5px 0 8px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+.widget_calendar th,
+.widget_calendar td {
+    text-align: center;
+}
+
+.widget_calendar #today {
+    background: $primary-color;
+    border-radius: 4px;
+}
+
+.widget_calendar #prev,
+.widget_calendar #next {
+    padding: 5px 0;
+}
+
+#footer-menu {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        display: inline-block;
+        margin-left: $smaller-padding;
+    }
+}
+
+@media (max-width:768px) {
+
+    .footer-bottom .footer-menu-items {
+        text-align: center;
+    }
+    .footer-bottom .copyright-content{
+        text-align:center;
+    }
+    #footer-menu li {
+        margin-left: 0;
+    }
+}
+
+.footer-menu-items {
+    text-align: right;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.ct-footer-bg{
+    background-color: #2b3948;
+}

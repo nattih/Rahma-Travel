@@ -1,0 +1,84 @@
+/* 17.2 BLOG PAGE */
+
+.pagination{
+    span{
+        font-size: 18px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .next,
+    .prev {
+        &:hover {
+            .pagination-prev,
+            .pagination-next {
+                color: $white-color;
+            }
+        }
+    }
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    @extend .vertical-center;
+    @extend .horizontal-center;
+    margin: 30px 0 0 0;
+
+    p {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+            a {
+                background: $white-color;
+                color: $dark-color;
+
+                line-height: 2.5;
+                text-decoration: none;
+
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                @extend .pre-shadow;
+                display: block;
+                transition: background 300ms ease;
+
+                &:hover {
+                    background-color: $primary-color;
+                    color: $white-color;
+                }
+            }
+
+        .current {
+            background: $primary-color;
+            color: $white-color;
+        }
+        .page-numbers {
+            margin: 0 5px;
+        }
+    }
+
+    .pagination-list,
+    .pagination-control {
+        display: inline-block;
+    }
+}
+.ct-content-area {
+    .grid-item {
+    padding-left:15px;
+    padding-right:15px;
+    }
+}
+.banner .banner-content {
+    text-align: center;
+}
+
+
+
